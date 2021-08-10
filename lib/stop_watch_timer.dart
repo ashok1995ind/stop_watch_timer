@@ -78,10 +78,10 @@ class StopWatchTimer {
     bool minute = true,
     bool second = true,
     bool milliSecond = true,
-        String daysRightBreak =' ',
-    String hoursRightBreak = ':',
-    String minuteRightBreak = ':',
-    String secondRightBreak = '.',
+        String daysRightBreak ='D ',
+    String hoursRightBreak = 'H ',
+    String minuteRightBreak = 'M ',
+    String secondRightBreak = 'S',
   }) {
     final daysStr = getDisplayDays(value);
     final hoursStr = getDisplayTimeHours(value);
