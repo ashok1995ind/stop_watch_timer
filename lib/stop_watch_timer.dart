@@ -109,6 +109,8 @@ class StopWatchTimer {
         result += minuteRightBreak;
       }
       result += '$sStr';
+       result += secondRightBreak;
+
     }
     if (milliSecond) {
       if (second) {
