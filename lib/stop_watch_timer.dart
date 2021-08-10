@@ -81,7 +81,7 @@ class StopWatchTimer {
         String daysRightBreak ='d :',
     String hoursRightBreak = 'h :',
     String minuteRightBreak = 'm :',
-    String secondRightBreak = 's :',
+    String secondRightBreak = 's ',
   }) {
     final daysStr = getDisplayDays(value);
     final hoursStr = getDisplayTimeHours(value);
